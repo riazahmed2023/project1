@@ -1,0 +1,448 @@
+*{margin:0 auto}
+body{font-family: 'ABeeZee', sans-serif;}
+header#hdrpart {
+    width: 100%;
+    min-height:60px;
+    box-shadow: 10px 0px 4px 2px rgb(201 216 199 / 89%);
+}
+
+.leftlogo {
+    width: 13%;
+    float: left;
+}
+
+nav.primarynavigation {
+    width: 84%;
+    float: right;
+}
+
+nav.primarynavigation>ul {
+    float: right;
+    padding-right: 26px;
+}
+
+nav.primarynavigation>ul>li {
+    display: inline-block;
+}
+
+nav.primarynavigation>ul>li>a {
+    display: block;
+    text-decoration: none;
+    line-height: 45px;
+    padding: 5px 37px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #250f0fe6;
+    font-style:bold;
+}
+
+ 
+
+nav.primarynavigation>ul>li {
+    float: left;
+}
+.leftlogo img {
+    width: 60px;
+    padding-left:35px;
+}
+nav.primarynavigation>ul>li>a:hover{
+	 transition:0.5s;
+	color:#489EE2;}
+	
+nav.primarynavigation>ul>li::after{
+	content:"";
+	width:0px;
+	height:3px;
+	background:#489EE2;
+	display:block;
+	transition:all 0.5s;
+}	
+
+nav.primarynavigation>ul>li:hover::after{
+	width:100%;
+}
+                                                    /* header area end */
+section#myinformation {
+    width: 100%;
+    overflow: hidden;
+	 border-bottom: 10px solid #bda0a012;
+}
+
+.lefyim {
+    width: 46%;
+    float: left;
+    padding-left:40px;
+}
+
+.rightim {
+    float: right;
+    width: 49%;
+}
+
+img.fastimage {
+    width: 610px;
+    margin-right: -1px;
+    border-right: 10px solid black;
+    margin-bottom: 40px;
+    border-bottom: 10px solid #4219bfc2;
+}		
+.lefyim>p {
+    padding-top: 60px;
+    font-size: 25px;
+}
+
+.lefyim>h1 {
+    font-size: 65px;
+    padding-top: 5px;
+    padding-left: 40px;
+}
+
+.lefyim>h1>span {
+    color: #397DB2;
+}
+
+         /* who im section end */
+		 
+section#aboutme {
+    overflow: hidden;
+    width: 100%;
+   
+}
+
+ .leftabout {
+    width: 50%;
+    float: left;
+}
+
+img.photossize {
+    width: 610px;
+    border-left: 10px solid black;
+     
+    margin: 10;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-top: 10px solid #4219bfc2;
+}
+
+.rightabout {
+    width: 47%;
+    float: right;
+    
+}
+
+.aboutscolour {
+    color: #14884F;
+    font-size: 25px;
+	padding-bottom: 9px;
+}
+
+span.namecolour {
+    color: #3D86C0;
+}
+.rightabout {
+    padding-top: 50px;
+}
+
+.rightabout>p {
+    font-size: 21px;
+    line-height: 30px;
+    padding-bottom: 5px;
+    
+}
+
+
+
+button.btn {
+    background: #397DB2;
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    color: white;
+    border-radius: 0px 15px;
+	cursor:pointer;
+}
+
+.\32 btn {
+    padding-top: 15px;
+    padding-left: 150px;
+}
+button.btn:hover {
+    background: #2476bdc4;
+    color: white;
+}
+ .serviceheading{
+	 clear:both;
+ }
+ .servicepart {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 22px;
+    box-shadow: 1px 1px 15px 11px #e2cfcf85;
+}
+
+.serviceheading {
+    text-align: center;
+    width: 390px;
+    line-height: 25px;
+}
+
+.serviceheading h2 {
+    font-size: 35px;
+    color: #005affe0;
+    padding-top: 40px;
+}
+.servicepart i {
+    font-size: 46px;
+    color: #0014ffc4;
+    padding-top: 20px;
+    background: #dfdee69e;
+    height: 55px;
+    width: 103px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+    margin-top: 37px;
+}
+.servicepart h3 {
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.servicepart p {
+    font-size: 20px;
+    padding: 0px 20px 50px 20px;
+} 
+section#services {
+    border-top: 9px solid #ecdfdf73;
+}
+section.skillsection {
+    clear: both;
+    background: #f1f0f075;
+    overflow: hidden;
+    padding: 30px 25px;
+}
+.leftsectionskill {
+    width: 48%;
+    float: left;
+}
+
+.rightsectionskills {
+    width: 48%;
+    float: right;
+}
+.leftsectionskill h2 {
+    font-size: 30px;
+}
+.leftsectionskill h2 {
+    color: #d;
+    color: #1F6EFF;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+p.colourcode {
+    margin-top: 10px;
+    padding-left: 14px;
+    line-height: 25px;
+    font-size: 18px;
+	padding-bottom: 15px;
+}
+
+.tikmarks p {
+    font-size: 18px;
+    padding-left: 16px;
+    
+}
+
+.tikmarks i {
+    color: #0cdc09fa;
+    padding-right: 7px;
+}
+
+.tikmarks {
+    line-height: 25px;
+}
+button.leftslillsbutton {
+    background: #1F6EFF;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 43px;
+    color: white;
+    border-radius: 0px 20px;
+    cursor: pointer;
+    font-weight: 10px;
+    border-radius: 2px -1px;
+}
+.progresssection {
+    padding-top: 12px;
+}
+.mainprogress {
+    height: 20px;
+    background: #e0dddde6;
+    border-radius: 5px 5px;
+}
+
+div#myprogressitem {
+    padding: 5px 15px;
+}
+.innerprogresshtml {
+    background: green;
+    height: 20px;
+    width: 99%;
+    float: left;
+    border-radius: 5px 5px;
+}
+
+.innerprogressjqury {
+    background: #4417b1;
+    width: 20p;
+    height: 20px;
+    width: 90%;
+    float: left;
+    border-radius: 5px 5px;
+}
+
+.innerprogresswordpress {
+    background: #9c1339;
+    width: 20p;
+    height: 20px;
+    width: 75%;
+    float: left;
+    border-radius: 5px 5px;
+}
+
+.innerprogresswordpress {}
+
+.innerprogressjoomla {
+    background: #cdd020;
+    width: 20p;
+    height: 20px;
+    width: 87%;
+    float: left;
+    border-radius: 5px 5px;
+}
+
+.innerprogressjoomla {}
+
+.innerprogressseo {
+    background: #1de047;
+    width: 20p;
+    height: 20px;
+    width: 65%;
+    float: left;
+    border-radius: 5px 5px;
+}
+div#myprogressitem p {
+    padding-bottom: 5px;
+}
+/* end */
+section#contactarea {
+    width: 100%;
+}
+
+.leftcontactaera {
+    width: 48%;
+    float: left;
+}
+
+.rightcontactarea {
+    width: 48%;
+    float: right;
+}
+
+img.imgregulation {
+    width: 635px;
+    padding-top: 57px;
+}
+
+.leftcontactaera h2 {
+    font-size: 34px;
+     color:#1F6EFF;
+    padding: 43px 0px 7px 56px;
+}
+
+.leftcontactaera p {
+    font-size: 17px;
+    padding: 2px 2px 25px 51px;
+10px: 1;
+    /* line-height: 1; */
+}
+
+span.phonesbold {
+    font-weight: 600;
+}
+
+span.emailbold {
+    font-weight: 600;
+}
+
+p {
+    line-height: 25px;
+}
+.leftcontactaera input {
+    display: block;
+    width: 87%;
+    padding-right: 5px;
+    padding: 9px;
+    margin: 15px;
+    margin-left: 44px;
+    padding-left: 7px;
+    /* border-color: #ddd; */
+    outline: none;
+    border: 2px solid #eaeaea;
+    border-radius: 5px;
+}
+
+textarea.textareas {
+    display: block;
+    padding-right: 386px;
+    margin-right: 21px;
+    border-color: 1px solid #ddd;
+    /* border-color: #ddd; */
+    border: 2px solid #eaeaea;
+    border-radius: 5px;
+	outline:none;
+}
+button.sendmessage {
+    background: #1F6EFF;
+    font-size: 14px;
+    padding: 11px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 0px 15px;
+    margin: 22px 14px 26px 45px;
+	cursor:pointer;
+}
+section#footersection {
+    clear: both;
+    width: 97%;
+    /* margin: auto; */
+    background: #ddd;
+    padding: 20px;
+}
+
+.leftsection {
+    float: left;
+    padding: right:10px;
+    /* padding-right: 249px; */
+    padding-left: 7px;
+}
+
+.rightsection i {
+    padding: 1px;
+}
+
+.rightsection {
+    padding-left: 1090px;
+}
+
+.rightsection i {
+    color: #2c19caf2;
+}
+
+
+
